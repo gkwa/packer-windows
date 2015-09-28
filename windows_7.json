@@ -62,6 +62,12 @@
         [
           "modifyvm",
           "{{.Name}}",
+          "--videocap",
+          "on"
+        ],
+        [
+          "modifyvm",
+          "{{.Name}}",
           "--cpus",
           "2"
         ]
